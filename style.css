@@ -1,0 +1,85 @@
+
+.boxes{
+    display: flex;
+   border:solid black 1px;
+   height: 100%vh;
+   background-color: #fbfbfb;
+
+}
+  .contactos {
+  border: solid black;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  }
+
+  .boxderecho {
+    border: black;
+    width: 80%;
+    background-image: url("./imagenes/comienza.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid;
+    background-color:  #eceff1;
+}
+  
+.chat{
+    text-align: justify;
+    font-size: small;
+    border: solid;
+  }
+
+  .primerchat{
+    border: solid;
+    border-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+  .nombre_estado{
+    padding: 0px 10px;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+  }
+
+  .iconos{
+    display: flex;
+    padding-top: 15px;
+    justify-content: space-between;
+    padding-right: 20px;
+    align-items: center;
+    width: 20%;
+    
+  }
+  
+  .nuevaconversacion{
+    height: 20vh;
+    background-image: url("./imagenes/nuevochat.png");
+    background-size: contain;
+    border: solid;
+    border:color sandybrown;
+  }
+
+  .barraperfil{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+  }
+
+.contacto{
+    display: flex;
+    width: 100%;
+    height: 85px;;
+    border:solid palevioletred;
+    justify-content: flex-start;
+    
+}
+
+.contacto img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    padding-top: 20px;
+}
